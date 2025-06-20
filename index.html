@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masatoの技術動画公開ページ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      color: #333;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-top: 1em;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Azure サブスクリプションの無料枠を取得する</h1>
+  <p>このページでは、Vimeoで限定公開している技術解説動画を埋め込んでいます。</p>
+
+  <div class="video-container">
+    <iframe src="https://player.vimeo.com/video/1094955275?badge=0&autopause=0&player_id=0&app_id=58479"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            title="Azureサブスクリプション（無料枠）を入手しよう">
+    </iframe>
+  </div>
+
+  <p style="margin-top:2em; font-size:0.9em; color:#777;">
+    © 2024 Masato Kikukawa | Powered by GitHub Pages
+  </p>
+</body>
+</html>
